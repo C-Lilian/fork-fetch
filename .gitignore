@@ -1,0 +1,41 @@
+# 🌐 Node / React
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.next/
+frontend/.cache/
+frontend/.eslintcache
+
+# 🐘 PHP / Slim / Composer
+backend/vendor/
+backend/.env
+backend/.DS_Store
+backend/composer.lock
+backend/composer.phar
+backend/.phpunit.result.cache
+backend/phpunit.xml
+
+# 🐳 Docker
+.env
+docker-compose.override.yml
+*.log
+*.pid
+*.bak
+*.swp
+
+# 💻 IDE / OS
+.vscode/
+.idea/
+*.sw?
+.DS_Store
+Thumbs.db
+
+# 📦 Global ignore (si fichiers à la racine)
+node_modules/
+vendor/
+*.log
+*.env
